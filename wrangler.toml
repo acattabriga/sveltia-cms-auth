@@ -1,3 +1,9 @@
 name = "sveltia-cms-auth"
 main = "src/index.js"
 compatibility_date = "2023-03-24"
+
+# Configurazione per il pannello di ospitale.org.
+# Il segreto GITHUB_CLIENT_SECRET NON sta qui: va inserito come "Secret" nel pannello Cloudflare.
+[vars]
+GITHUB_CLIENT_ID = "Ov23liEpR8Id97UUkkjF"
+ALLOWED_DOMAINS = "ospitale.a-cattabriga2.workers.dev, localhost, ospitale.org, www.ospitale.org"
